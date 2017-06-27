@@ -1,0 +1,6 @@
+import(yaImpute)
+importFrom(randomForest, randomForest)
+importFrom(lattice, barchart, dotplot, strip.custom)
+importFrom(graphics, legend,par,plot,title)
+importFrom(stats, cutree,dist,hclust,kmeans,predict,rnorm,sd,var)
+exportPattern("^[[:alpha:]]+")
